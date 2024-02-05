@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintra-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+</head>
+
+<body>
+    <header>
+        <nav class="flex space-between">
+            <div class="left flex items-center ">
+                <img src="logo.png" alt="">
+                <ul class="flex items-center justify-center uppercase semibold">
+                    <li> <a href="#menwear">Men</a></li>
+                    <!-- <li><a href="#contactus">ContactUs</a></li> -->
+                    <li> Women</li>
+                    <li> Kids</li>
+                    <li> Home and Living</li>
+                    <li> Beauty</li>
+                    <li> Studio</li>
+                </ul>
+            </div>
+            <div class="right flex items-center ">
+                <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar"
+                    value="" data-reactid="904">
+                <div class="rightBox flex">
+                    <div class="profile mx-2 semibold ">Profile</div>
+                    <div class="wishlist mx-2 semibold">WishList</div>
+                    <div class="bag mx-2 semibold">Bag</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <img src="home.png" alt="" class="homeImg">
+        <img class="homeImg"
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/13/e34b394c-36b1-4774-8639-5aeb2c5716121652442642122-DK-TSHIRT-67--1-.gif" />
+        <img class="homeImg"
+            src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/1e599d37-1ed6-4e39-9057-ffb4065173b51651897264796-Unbelievable-Deals.jpg" />
+    </section>
+
+    <section class="container flex mx-top">
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/5d1b7ad3-c3ed-4ef9-a654-18231743d3cd1651484798059-Anouk-Inddus.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/f7575784-edbf-411f-acc0-51891ea7f4331651484798329-Inddus-_Varanga.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/ce40419d-6408-404e-9320-96e41aee1b791651484798300-Hrx-_Puma_-_More.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/44192c45-7393-4ede-a926-11f30b0b92a51651484798036-All.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/764761e7-c505-459e-92a2-6c4387f9e2511651484798319-Hush_Puppies-_Arrow.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/2f424664-e746-4af1-b0e1-366ccb0f2c681651484798552-Red_Tape.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/a802fc48-8f5b-4d69-97ab-e6a3cf3fb70c1651484798800-USPA-_Flying_Machine.jpg" />
+    </section>
+
+
+    <section class="container flex  manwear mx-top" id="menwear">
+        <img class="itemImg br"
+            src="https://cdn.shopify.com/s/files/1/0475/7179/6123/files/tile-1_6176631e-16d0-440b-93de-ed659744137f.jpg?v=1673959518" />
+        <img class="itemImg br"
+            src="data:image/jpeg;base64,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" />
+        <img class="itemImg br"
+            src="https://infoguidenigeria.com/wp-content/uploads/2021/09/20-Best-Senator-Wears-Styles-for-Men-in-Nigeria-edit.jpg" />
+        <img class="itemImg br"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06-n-dJREwZTszQ_KAFT0tAjvB0NYeMGWfw&usqp=CAU" />
+        <img class="itemImg br"
+            src="https://outfittrends.b-cdn.net/wp-content/uploads/2015/10/6-373x500.png" />
+        <img class="itemImg br"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYOjSYX3W8OsVn_kgdMofBWYkq1GIk2i9lA&usqp=CAU" />
+        <img class="itemImg br"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqgG0a9qg57hnwUytyKgtXcOXybTK-_hIgo_eWUE_oLTrFFBVa8iOT6deGVOPzLihZhAQ&usqp=CAUressive,dpr_2.0/assets/images/2022/5/2/a802fc48-8f5b-4d69-97ab-e6a3cf3fb70c1651484798800-USPA-_Flying_Machine.jpg" />
+    </section>
+
+    <section class="container flex mx-top">
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/5d1b7ad3-c3ed-4ef9-a654-18231743d3cd1651484798059-Anouk-Inddus.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/f7575784-edbf-411f-acc0-51891ea7f4331651484798329-Inddus-_Varanga.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/ce40419d-6408-404e-9320-96e41aee1b791651484798300-Hrx-_Puma_-_More.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/44192c45-7393-4ede-a926-11f30b0b92a51651484798036-All.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/764761e7-c505-459e-92a2-6c4387f9e2511651484798319-Hush_Puppies-_Arrow.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/2f424664-e746-4af1-b0e1-366ccb0f2c681651484798552-Red_Tape.jpg" />
+        <img class="itemImg"
+            src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/a802fc48-8f5b-4d69-97ab-e6a3cf3fb70c1651484798800-USPA-_Flying_Machine.jpg" />
+    </section>
+
+
+
+<footer>Copyright &copy; myntra.com | All rights reserved</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
